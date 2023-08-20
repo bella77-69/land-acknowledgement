@@ -1,0 +1,15 @@
+:root {
+    --background-color: #11966e;
+    --text-dark: #192324;
+    --text-light: #faf9f9;
+    --text-light-hover: #faf9f9;
+    --img-overlay: #2e374a;
+    --hero-background: rgba(255, 255, 255, 0.4);
+    --link-color: #0e6e4b;
+    --home-background: #DFEBF2;
+    --button-hover: #0e754f;
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --search-background: rgba(245, 245, 245, 0.9);
+    --error-msg: #ff0000;
+    --home-background-transparent: rgba(223, 235, 242, 0.8);
+}
