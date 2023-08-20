@@ -1,10 +1,18 @@
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom/cjs/react-router-dom.min";
+import Navigation from "./components/Navigation/Navigation";
 
 
 function App() {
   return (
-    <div className="App">
+   <Router>
+    <>
+    <Navigation />
+    <Switch>
     
-    </div>
+    </Switch>
+
+    </>
+   </Router>
   );
 }
 
