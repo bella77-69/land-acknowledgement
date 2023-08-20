@@ -8,7 +8,7 @@ import Footer from "./components/Footer/Footer";
 import HomePage from "./pages/HomePage/HomePage";
 import Location from "./pages/Location/Location";
 import LandAcknowledgement from "./pages/LandAcknowledgement/LandAcknowledgement";
-
+import Search from "./pages/Search/Serach";
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
           <Route path='/' exact component={HomePage} />
           <Route path='/location' exact component={Location} />
           <Route path='/land-acknowledgement' exact component={LandAcknowledgement} />
+          <Route path='/search' exact component={Search} />
         </Switch>
         <Footer />
       </>
