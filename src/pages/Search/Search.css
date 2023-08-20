@@ -1,125 +1,124 @@
 @import '../../styles/main.css';
 
 .search {
-    background-image: var(--image-overlay), url('../../assets/images/hero-img.png');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    padding: 45px 16px;
-    text-align: center;
+  background-image: var(--image-overlay), url('../../assets/images/hero-img.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 45px 16px;
+  text-align: center;
 }
+
 .search-page {
   padding: 80px 20px;
-    max-width: 300px;
-    margin: 0 auto;
-    /* padding: 120px 20px; */
-    text-align: center;
-    background-color: var(--hero-background);
-    min-height: 100vh;
-    /* padding: 20px; */
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: var(--hero-background);
+  min-height: 100vh;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.city-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.city-search input {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--home-background-transparent);
+}
+
+.city-search button {
+  background-color: var(--background-color);
+  color: var(--text-light);
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.city-search button:hover {
+  background-color: var(--link-color);
+}
+
+.error-message {
+  color: var(--error-msg);
+  margin: 15px 0;
+}
+
+.indigenous-lands {
+  margin-top: 20px;
+  background-color: var(--home-background-transparent);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.indigenous-lands h2 {
+  font-size: 18px;
+}
+
+.indigenous-lands ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.indigenous-lands li {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.indigenous-lands li:hover {
+  background-color: var(--list-item-hover-bg);
+}
+
+@media (min-width: 768px) {
+  .search-page {
+    max-width: 500px;
   }
-  
+
   .page-title {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-  
-  .city-search {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-  
-  .city-search input {
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    background-color: var(--home-background-transparent);
-  }
-  
-  .city-search button {
-    background-color: var(--background-color);
-    color: var(--text-light);
-    border: none;
-    border-radius: 4px;
-    padding: 10px 20px;
-    cursor: pointer;
-    width: 50%;
+    font-size: 24px;
   }
 
-  .city-search button:hover {
-    background-color: var(--link-color);
-  }
-  
-  .error-message {
-    color: var(--error-msg);
-    margin: 15px 0;
-  }
-  
-  .indigenous-lands {
-    margin-top: 20px;
-    background-color: var(--home-background-transparent);
-    border-radius: 5px;
-    padding: 15px;
-  }
-  
   .indigenous-lands h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
-  
-  .indigenous-lands ul {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0;
+}
+
+@media (min-width: 1024px) {
+  .search {
+    height: 122vh;
   }
-  
-  .indigenous-lands li {
-    margin: 5px 0;
-    font-size: 16px;
+}
+
+@media (min-width: 1200px) {
+  .search-page {
+    margin: 0 auto;
   }
 
-  .indigenous-lands li:hover {
-    background-color: var(--list-item-hover-bg);
+  .page-title {
+    font-size: 28px;
   }
 
-  @media (min-width: 768px) {
-    .search-page {
-     max-width: 500px;
-    }
-    .page-title {
-      font-size: 24px;
-    }
-    .indigenous-lands h2 {
-      font-size: 20px;
-    }
+  .indigenous-lands h2 {
+    font-size: 24px;
   }
-
-  @media (min-width: 1024px) {
-    .search {
-      height: 122vh;
-    }
-    /* .search-page {
-     max-width: 800px;
-    } */
-  }
-
-  @media (min-width: 1200px) {
-    .search-page {
-      /* max-width: 600px; */
-      margin: 0 auto;
-    }
-    .page-title {
-      font-size: 28px;
-    }
-    .indigenous-lands h2 {
-      font-size: 24px;
-    }
-  }
+}
