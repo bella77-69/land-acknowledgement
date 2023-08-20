@@ -19,6 +19,10 @@
     min-height: 100vh;
     /* padding: 20px; */
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .page-title {
@@ -102,17 +106,14 @@
     .search {
       height: 122vh;
     }
-    .search-page {
+    /* .search-page {
      max-width: 800px;
-    }
-    .city-search button {
-      width: 25%;
-    }
+    } */
   }
 
   @media (min-width: 1200px) {
     .search-page {
-      max-width: 1000px;
+      /* max-width: 600px; */
       margin: 0 auto;
     }
     .page-title {
@@ -120,8 +121,5 @@
     }
     .indigenous-lands h2 {
       font-size: 24px;
-    }
-    .city-search button {
-      width: 20%;
     }
   }
