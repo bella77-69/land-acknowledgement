@@ -1,0 +1,34 @@
+@import '../../styles/main.css';
+
+.footer {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-light);
+  }
+  
+  /* Center the content and add padding */
+  .footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  /* Add some space between the paragraphs */
+  .footer-container p {
+    margin-bottom: 10px;
+  }
+
+  .footer-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    background-image: url('../../assets/images/everyChild.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 15vh;
+  }
