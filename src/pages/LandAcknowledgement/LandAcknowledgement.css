@@ -1,8 +1,9 @@
 @import '../../styles/main.css';
 
 .land-acknowledgment {
-    padding: 20px;
-    border-radius: 10px;
+    /* padding: 20px; */
+    border-radius: 5px;
+    /* background-color: var(--home-background-transparent); */
   }
   
   .title {
@@ -13,10 +14,11 @@
   .content {
     font-size: 16px;
     color: var(--text-dark);
+    padding: 0;
   }
   
   .land-paragraph {
-    font-size: 20px;
+    font-size: 17px;
   }
   
   .indigenous-names {

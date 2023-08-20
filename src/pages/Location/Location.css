@@ -9,11 +9,18 @@
     text-align: center;
     min-height: 100vh;
   }
+
+  .content {
+    /* padding: 20px; */
+    border-radius: 5px;
+
+  }
   
   .location {
-    background-color: rgba(248, 248, 248, 0.9);
+    /* background-color: rgba(248, 248, 248, 0.9); */
+    background-color: var(--home-background-transparent);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     max-width: 600px;
     width: 100%;
@@ -27,7 +34,7 @@
   }
   
   .location h2 {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
   
