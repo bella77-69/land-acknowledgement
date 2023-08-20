@@ -74,7 +74,7 @@ const Location = () => {
       <div className="location">
         {latitude && longitude ? (
           <div className="content">
-            <p>
+            <p className="location-heading">
               This page detects your current location and displays the
               coordinates. Additionally, the land acknowledgment section below
               helps you identify the traditional lands you are on, fostering
@@ -82,7 +82,7 @@ const Location = () => {
             </p>
 
             <div className="box">
-              <h3>Your Current Location:</h3>
+              <h3 className="location-title">Your Current Location:</h3>
               <div className="location-info">
                 <p>
                   <strong>Latitude:</strong> {latitude}

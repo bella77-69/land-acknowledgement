@@ -1,7 +1,7 @@
 @import '../../styles/main.css';
 
 .search {
-    background-image: url('../../assets/images/hero-img.png');
+    background-image: var(--image-overlay), url('../../assets/images/hero-img.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -10,14 +10,14 @@
     text-align: center;
 }
 .search-page {
+  padding: 80px 20px;
     max-width: 300px;
     margin: 0 auto;
-    padding: 120px 20px;
+    /* padding: 120px 20px; */
     text-align: center;
     background-color: var(--hero-background);
-    /* background-color: var(--search-background); */
     min-height: 100vh;
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 5px;
   }
   
@@ -29,6 +29,7 @@
   .city-search {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
     margin-bottom: 20px;
   }
@@ -47,6 +48,7 @@
     border-radius: 4px;
     padding: 10px 20px;
     cursor: pointer;
+    width: 50%;
   }
 
   .city-search button:hover {
@@ -55,7 +57,7 @@
   
   .error-message {
     color: var(--error-msg);
-    margin-top: 10px;
+    margin: 15px 0;
   }
   
   .indigenous-lands {
@@ -80,6 +82,10 @@
     font-size: 16px;
   }
 
+  .indigenous-lands li:hover {
+    background-color: var(--list-item-hover-bg);
+  }
+
   @media (min-width: 768px) {
     .search-page {
      max-width: 500px;
@@ -93,7 +99,29 @@
   }
 
   @media (min-width: 1024px) {
+    .search {
+      height: 122vh;
+    }
     .search-page {
      max-width: 800px;
+    }
+    .city-search button {
+      width: 25%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .search-page {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .page-title {
+      font-size: 28px;
+    }
+    .indigenous-lands h2 {
+      font-size: 24px;
+    }
+    .city-search button {
+      width: 20%;
     }
   }

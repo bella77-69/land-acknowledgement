@@ -1,7 +1,10 @@
 .land {
     position: relative;
-    background-image: url('../../assets/images/hero-img.png');
+    /* background-image: url('../../assets/images/hero-img.png'); */
+    background-image: var(--image-overlay), url('../../assets/images/hero-img.png');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center center;
     display: flex;
     align-items: center;
@@ -11,13 +14,28 @@
   }
 
   .content {
-    /* padding: 20px; */
-    border-radius: 5px;
+    padding: 30px;
+    border-radius: 10px;
+  }
 
+  .location-heading {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: var(--text-dark);
+
+  }
+
+  .location-info p {
+    margin-bottom: 15px;
+    color: var(--text-dark);
+    font-size: 18px;
   }
   
   .location {
     /* background-color: rgba(248, 248, 248, 0.9); */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     background-color: var(--home-background-transparent);
     padding: 20px;
     border-radius: 5px;
@@ -27,6 +45,12 @@
     margin: 20px;
   }
   
+  .location-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: var(--text-dark);
+  }
+
   .location-info {
     font-size: 16px;
     margin-bottom: 20px;
@@ -44,8 +68,8 @@
   }
   
   /* Media query for responsiveness */
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .location {
       margin: 10px;
     }
-  }
+  } */

@@ -9,6 +9,7 @@
   .title {
     font-size: 24px;
     margin-bottom: 10px;
+    text-shadow: var(--text-shadow);
   }
   
   .content {
@@ -19,6 +20,8 @@
   
   .land-paragraph {
     font-size: 17px;
+    margin-bottom: 20px;
+    color: var(--text-dark);
   }
   
   .indigenous-names {

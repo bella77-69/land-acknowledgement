@@ -1,7 +1,7 @@
 @import '../../styles/main.css';
 
 .learn {
-    background-image: url('../../assets/images/hero-img.png');
+    background-image: var(--image-overlay), url('../../assets/images/hero-img.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -16,7 +16,6 @@
     padding: 120px 20px;
     text-align: center;
     background-color: var(--hero-background);
-    /* background-color: var(--search-background); */
     min-height: 100vh;
     padding: 20px;
     border-radius: 5px;

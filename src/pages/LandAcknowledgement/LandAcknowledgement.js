@@ -10,7 +10,7 @@ const LandAcknowledgment = ({ indigenousLands }) => {
 
   return (
     <div className="land-acknowledgment">
-      <h2 className="title">Land Acknowledgment</h2>
+      <h2 className="location-title">Land Acknowledgment</h2>
       <div className="content">
         {indigenousLands.length > 0 ? (
           <p className="land-paragraph">
