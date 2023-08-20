@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import axios from "axios";
 import "./Search.css";
 import { apiKey } from "../../config.js";
 
@@ -14,21 +13,21 @@ const Search = () => {
 
   const handleSearch = async () => {
     try {
-      const cityResponse = await axios.get(
-        `https://api.opencagedata.com/geocode/v1/json?q=${encodeURIComponent(
-          inputCity
-        )}&key=${apiKey}`
+      const cityResponse = await fetch(
+        `https://api.opencagedata.com/geocode/v1/json?q=${encodeURIComponent(inputCity)}&key=${apiKey}`
       );
+      const cityData = await cityResponse.json();
 
-      if (cityResponse.data.results.length > 0) {
-        const { lat, lng } = cityResponse.data.results[0].geometry;
+      if (cityData.results.length > 0) {
+        const { lat, lng } = cityData.results[0].geometry;
 
-        const indigenousLandResponse = await axios.get(
+        const indigenousLandResponse = await fetch(
           `https://native-land.ca/api/index.php?maps=territories&position=${lat},${lng}`
         );
+        const indigenousLandData = await indigenousLandResponse.json();
 
         setError(null);
-        setIndigenousLands(indigenousLandResponse.data);
+        setIndigenousLands(indigenousLandData);
       } else {
         setError("City data not found");
         setIndigenousLands([]);
@@ -41,30 +40,30 @@ const Search = () => {
   };
 
   return (
-    <div className='search'>
-    <div className="search-page">
-      <h1 className="page-title">Search for Indigenous Lands</h1>
-      <div className="city-search">
-        <input
-          type="text"
-          placeholder="Enter a city"
-          value={inputCity}
-          onChange={handleCityInputChange}
-        />
-        <button onClick={handleSearch}>Search</button>
-      </div>
-      {error && <p className="error-message">{error}</p>}
-      {indigenousLands.length > 0 && (
-        <div className="indigenous-lands">
-          <h2>Indigenous Lands of {inputCity}</h2>
-          <ul>
-            {indigenousLands.map((land) => (
-              <li key={land.properties.Name}>{land.properties.Name}</li>
-            ))}
-          </ul>
+    <div className="search">
+      <div className="search-page">
+        <h1 className="page-title">Search for Indigenous Lands</h1>
+        <div className="city-search">
+          <input
+            type="text"
+            placeholder="Enter a city"
+            value={inputCity}
+            onChange={handleCityInputChange}
+          />
+          <button onClick={handleSearch}>Search</button>
         </div>
-      )}
-    </div>
+        {error && <p className="error-message">{error}</p>}
+        {indigenousLands.length > 0 && (
+          <div className="indigenous-lands">
+            <h2>Indigenous Lands of {inputCity}</h2>
+            <ul>
+              {indigenousLands.map((land) => (
+                <li key={land.properties.Name}>{land.properties.Name}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
     </div>
   );
 };
