@@ -16,6 +16,7 @@
   .container-box {
     max-width: 900px;
     padding: 20px;
+    flex-direction: column;
   
   }
   
@@ -24,10 +25,14 @@
     font-weight: 500;
   }
   
-  .container-box.column .content,
+
   .container-box.row .content {
     flex: 1;
     padding: 20px;
+  }
+
+  .container-box.column .content {
+    padding: 10px;
   }
   
   .button-container {
@@ -82,6 +87,16 @@
   @media (min-width: 768px) {
     .container-box {
       margin: 0 20px 0;
-      padding: 0 40px 0;
+      padding: 0 20px 0;
+      flex-direction: row;
+    }
+    .container-box.column .content {
+        padding: 20px;
+      }
+  }
+
+  @media (min-width: 1024px) {
+    .container-box {
+        padding: 0 40px 0;
     }
   }

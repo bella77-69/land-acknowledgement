@@ -47,6 +47,7 @@ function HomePage() {
             </p>
           </div>
           <div className="content button-container">
+            
             <p>
               Let's take a step forward in supporting reconciliation efforts and
               working towards a society that acknowledges and honors Indigenous
