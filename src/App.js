@@ -6,6 +6,9 @@ import {
 import Navigation from "./components/Navigation/Navigation";
 import Footer from "./components/Footer/Footer";
 import HomePage from "./pages/HomePage/HomePage";
+import Location from "./pages/Location/Location";
+import LandAcknowledgement from "./pages/LandAcknowledgement/LandAcknowledgement";
+
 
 function App() {
   return (
@@ -14,6 +17,8 @@ function App() {
         <Navigation />
         <Switch>
           <Route path='/' exact component={HomePage} />
+          <Route path='/location' exact component={Location} />
+          <Route path='/land-acknowledgement' exact component={LandAcknowledgement} />
         </Switch>
         <Footer />
       </>

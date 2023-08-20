@@ -1,0 +1,45 @@
+@import '../../styles/main.css';
+
+.land-acknowledgment {
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    font-size: 16px;
+    color: var(--text-dark);
+  }
+  
+  .land-paragraph {
+    font-size: 20px;
+  }
+  
+  .indigenous-names {
+    font-weight: bold;
+    color: var(--background-color);
+  }
+  
+  .cta {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cta-button {
+    background-color: var(--background-color);
+    border: none;
+    color: var(--text-light);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: var(--button-hover);
+  }
