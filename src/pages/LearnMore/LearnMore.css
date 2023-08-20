@@ -1,0 +1,119 @@
+@import '../../styles/main.css';
+
+.learn {
+    background-image: url('../../assets/images/hero-img.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 45px 16px;
+    text-align: center;
+  }
+  
+  .learn-question {
+    max-width: 275px;
+    margin: 0 auto;
+    padding: 120px 20px;
+    text-align: center;
+    background-color: var(--hero-background);
+    /* background-color: var(--search-background); */
+    min-height: 100vh;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .learn-more {
+    background-color: var(--home-background-transparent);
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  
+  }
+  
+  .learn-more h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-dark);
+  }
+  
+  .learn-more p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: left;
+    color: var(--text-dark);
+  }
+  
+  .learn-more.active p {
+    display: block;
+  }
+
+  .learn-links {
+    background-color: var(--home-background);
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.learn-links a {
+    text-decoration: none;
+    color: var(--text-dark);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.learn-links a:hover {
+    color: var(--link-color);
+}
+  
+  /* Responsive Styles */
+   @media (max-width: 768px) {
+    .learn-more {
+      padding: 15px;
+    }
+    .learn-more h3 {
+      font-size: 17px;
+    }
+    .learn-links {
+      padding: 10px; 
+  }
+  }
+
+  @media (min-width: 768px) {
+    .learn-question {
+      max-width: 500px;
+    }
+    .learn-links a {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .learn-more p {
+      font-size: 18px;
+    }
+  
+    .learn-question {
+      max-width: 800px;
+    } 
+  }
+
+@media (max-width: 480px) {
+  .learn-links h2 {
+      font-size: 20px; 
+  }
+}
