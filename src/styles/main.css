@@ -15,4 +15,25 @@
     --text-shadow: 0 0 10px rgba(17, 150, 110, 0.7);
     --image-overlay: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
     --list-item-hover-bg:  rgba(17, 150, 110, 0.7);
+
+    /* Fonts */
+    --font-family: 'Roboto', sans-serif;
+    --font-family-heading: 'Roboto Slab', serif;
+    --font-family-code: 'Roboto Mono', monospace;
+    --font-size: 16px;
+    --font-size-heading: 24px;
+    --font-size-code: 14px;
+    --font-weight: 400;
+    --font-weight-heading: 700;
+    --font-weight-code: 400;
+    --line-height: 1.5;
+    --line-height-heading: 1.2;
+    --line-height-code: 1.5;
+    --letter-spacing: 0.5px;
+    --letter-spacing-heading: 0.5px;
+    --letter-spacing-code: 0.5px;
+    --text-transform: none;
+    --text-transform-heading: none;
+    --text-transform-code: none;
+    --text-decoration: none;
 }

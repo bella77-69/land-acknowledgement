@@ -1,22 +1,21 @@
 @import '../../styles/main.css';
 
 .land-acknowledgment {
-    /* padding: 20px; */
     border-radius: 5px;
     /* background-color: var(--home-background-transparent); */
   }
   
-  .title {
+  .location-title {
     font-size: 24px;
     margin-bottom: 10px;
     text-shadow: var(--text-shadow);
   }
   
-  .content {
+  /* .content {
     font-size: 16px;
     color: var(--text-dark);
     padding: 0;
-  }
+  } */
   
   .land-paragraph {
     font-size: 17px;
