@@ -3,7 +3,7 @@
 .search {
   background-image: var(--image-overlay), url('../../assets/images/hero-img.png');
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   padding: 45px 16px;

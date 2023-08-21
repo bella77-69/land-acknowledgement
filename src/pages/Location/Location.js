@@ -82,7 +82,7 @@ const Location = () => {
             </p>
 
             <div className="box">
-              <h3 className="location-title">Your Current Location:</h3>
+              <h2 className="location-title">Your Current Location:</h2>
               <div className="location-info">
                 <p>
                   <strong>Latitude:</strong> {latitude}

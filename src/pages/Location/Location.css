@@ -1,75 +1,85 @@
 .land {
     position: relative;
-    /* background-image: url('../../assets/images/hero-img.png'); */
     background-image: var(--image-overlay), url('../../assets/images/hero-img.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
+    padding: 45px 16px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-height: 100vh;
-  }
+}
 
-  .content {
-    padding: 30px;
-    border-radius: 10px;
-  }
+.content {
+    padding: 20px;
+    /* border-radius: 10px; */
+    /* background: var(--home-background); */
+}
 
-  .location-heading {
-    font-size: 18px;
+.location-heading {
+    font-size: 16px;
     margin-bottom: 20px;
     color: var(--text-dark);
+}
 
-  }
-
-  .location-info p {
+.location-info p {
     margin-bottom: 15px;
     color: var(--text-dark);
-    font-size: 18px;
-  }
-  
-  .location {
-    /* background-color: rgba(248, 248, 248, 0.9); */
+    font-size: 16px;
+}
+
+.location {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: var(--home-background-transparent);
+    /* background-color: var(--home-background); */
+    background-color: var(--home-background);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
+    max-width: 500px;
     width: 100%;
-    margin: 20px;
-  }
-  
-  .location-title {
-    font-size: 24px;
+}
+
+.location-title {
+    font-size: 18px;
     margin-bottom: 15px;
     color: var(--text-dark);
-  }
+}
 
-  .location-info {
+.location-info {
     font-size: 16px;
     margin-bottom: 20px;
     color: #555;
-  }
-  
-  .location h2 {
+}
+
+/* .location h2 {
     font-size: 20px;
     margin-bottom: 10px;
-  }
-  
-  /* Container for the Land Acknowledgment component */
-  .land-acknowledgment-container {
+} */
+
+/* Container for the Land Acknowledgment component */
+.land-acknowledgment-container {
     margin-top: 20px;
-  }
-  
-  /* Media query for responsiveness */
-  /* @media (max-width: 768px) {
+}
+
+/* Media query for responsiveness */
+@media (min-width: 768px) {
     .location {
-      margin: 10px;
+        margin: 10px;
     }
-  } */
+}
+
+@media (min-width: 1024px){
+    .location-heading  {
+        font-size: 18px;
+    }
+    .location-title {
+        font-size: 20px;
+    }
+    .location-info p {
+        font-size: 18px;
+    }
+}
