@@ -15,15 +15,16 @@
     margin: 0 auto;
     padding: 120px 20px;
     text-align: center;
-    background-color: var(--hero-background);
+    background-color: var(--home-background);
     min-height: 100vh;
     padding: 20px;
     border-radius: 5px;
   }
   
   .page-title {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: var(--text-dark);
   }
 
   .learn-more {
@@ -40,7 +41,7 @@
   
   .learn-more h3 {
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: var(--text-dark);
   }
@@ -103,9 +104,11 @@
   
   @media (min-width: 1024px) {
     .learn-more p {
-      font-size: 18px;
+      font-size: 17px;
     }
-  
+  .page-title {
+    font-size: 20px;
+  }
     /* .learn-question {
       max-width: 800px;
     }  */

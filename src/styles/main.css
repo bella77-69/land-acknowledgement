@@ -8,7 +8,7 @@
     --link-color: #0e6e4b;
     --home-background: #DFEBF2;
     --button-hover: #0e754f;
-    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     --search-background: rgba(245, 245, 245, 0.9);
     --error-msg: #ff0000;
     --home-background-transparent: rgba(223, 235, 242, 0.8);
@@ -18,7 +18,7 @@
 
     /* Fonts */
     --font-family: 'Roboto', sans-serif;
-    --font-family-heading: 'Roboto Slab', serif;
+    --font-family-heading: 'Roboto', sans-serif;
     --font-family-code: 'Roboto Mono', monospace;
     --font-size: 16px;
     --font-size-heading: 24px;
