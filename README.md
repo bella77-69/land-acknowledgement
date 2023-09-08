@@ -33,6 +33,6 @@ To get started with Acknowledging Our Lands, follow these steps:
 
 2. **Development Mode**: In the project directory, run `npm start` to start the app in development mode.
 
-   <!-- Open [https://chantelle-website-v2.netlify.app/](https://chantelle-website-v2.netlify.app/) to view it in your browser. -->
+   Open [https://land-acknowledgement-8oe7s6for-bella77-69.vercel.app](https://land-acknowledgement.vercel.app/) to view it in your browser.
 
    The page will automatically reload if you make edits.
