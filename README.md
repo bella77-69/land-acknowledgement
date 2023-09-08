@@ -2,18 +2,10 @@
 Acknowledging Our Lands <br/>
 </h2>
 
-<div>
-<img src="./homePage.jpg" alt="home page desktop view"/>
-    <img src="./homeMobile.jpg" alt="home page mobile view"/>
+<div align="center">
+<img src="./homePageDesktop.jpg" alt="demo"/>
 </div>
 
-<div align="center">
-<img src="./desktop.jpg" alt="demo"/>
-</div>
-
-<div align="center">
-    <img src="./land.jpg" alt="demo"/>
-</div>
 ## Built With
 
 Acknowledging Our Lands was built using these technologies:
