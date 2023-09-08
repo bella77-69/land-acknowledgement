@@ -36,12 +36,3 @@ To get started with Acknowledging Our Lands, follow these steps:
    <!-- Open [https://chantelle-website-v2.netlify.app/](https://chantelle-website-v2.netlify.app/) to view it in your browser. -->
 
    The page will automatically reload if you make edits.
-
-## Mobile Views
-
-<div align="center">
-  <div style="display: flex; justify-content: space-between;">
-    <img src='./homeMobile.jpg' alt="Home Page Mobile View" style="width: 48%;" />
-    <img src='./landAcknowledgementMobile.jpg' alt="Land Acknowledgment Mobile View" style="width: 48%;" />
-  </div>
-</div>
