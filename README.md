@@ -8,7 +8,7 @@ Acknowledging Our Lands <br/>
 </div>
 
 <div align="center">
-<img src="./desktop.jpg" alt="demo"/>
+<img src="./landAcknowledgement.jpg" alt="land acknowledgement page"/>
 </div>
 
 <div align="center">
