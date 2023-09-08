@@ -3,7 +3,7 @@ Acknowledging Our Lands <br/>
 </h2>
 
 <div align="center">
-<img src="./main.jpg" alt="demo"/>
+<img src="./homePage.jpg" alt="demo"/>
 </div>
 
 ## Built With
