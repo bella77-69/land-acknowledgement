@@ -6,6 +6,13 @@ Acknowledging Our Lands <br/>
 <img src="./homePage.jpg" alt="demo"/>
 </div>
 
+<div align="center">
+<img src="./desktop.jpg" alt="demo"/>
+</div>
+
+<div align="center">
+    <img src="./land.jpg" alt="demo"/>
+</div>
 ## Built With
 
 Acknowledging Our Lands was built using these technologies:
