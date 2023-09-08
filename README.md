@@ -1,24 +1,19 @@
-<h1 align="center">
-Acknowledging Our Lands <br/>
-</h1>
-<h2>Acknowledging Our Lands is a web application that helps users learn about and perform land acknowledgments. It provides a simple and educational platform for acknowledging the Indigenous territories and traditional lands on which we live and work.</h2>
+<h1 align="center">Acknowledging Our Lands</h1>
+
+<p align="center">
+  <strong>Acknowledging Our Lands</strong> is a web application that helps users learn about and perform land acknowledgments. It provides a simple and educational platform for acknowledging the Indigenous territories and traditional lands on which we live and work.
+</p>
 
 <div align="center">
-<img src="./homePageDesktop.jpg" alt="home page desktop view"/>
+  <img src="./homePageDesktop.jpg" alt="Home Page Desktop View" />
 </div>
 
 <div align="center">
-<img src="./landAcknowledgement.jpg" alt="land acknowledgement page"/>
+  <img src="./landAcknowledgement.jpg" alt="Land Acknowledgment Page" />
 </div>
 
 <div align="center">
-    <img src="./learn.jpg" alt="learn more page"/>
-</div>
-
-<div align="left">
-<img src='./homeMobile.jpg' alt="home page mobile view" />
-<br />
-<img src='./landAcknowledgementMobile.jpg' alt='land acknowledgement mobile view' />
+  <img src="./learn.jpg" alt="Learn More Page" />
 </div>
 
 ## Built With
@@ -32,12 +27,22 @@ Acknowledging Our Lands was built using these technologies:
 
 ## 🛠 Installation and Setup Instructions
 
-1. Installation: `npm install`
+To get started with Acknowledging Our Lands, follow these steps:
 
-2. In the project directory, you can run: `npm start`
+1. **Installation**: Run `npm install` to install project dependencies.
 
-Runs the app in the development mode.\
-Open [https://chantelle-website-v2.netlify.app/] to view it in the browser.
+2. **Development Mode**: In the project directory, run `npm start` to start the app in development mode.
 
-</br> 
-The page will reload if you make edits.
+   <!-- Open [https://chantelle-website-v2.netlify.app/](https://chantelle-website-v2.netlify.app/) to view it in your browser. -->
+
+   The page will automatically reload if you make edits.
+
+## Mobile Views
+
+<div align="center">
+  <img src='./homeMobile.jpg' alt="Home Page Mobile View" />
+</div>
+
+<div align="center">
+  <img src='./landAcknowledgementMobile.jpg' alt="Land Acknowledgment Mobile View" />
+</div>
