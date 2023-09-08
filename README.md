@@ -2,8 +2,9 @@
 Acknowledging Our Lands <br/>
 </h2>
 
-<div align="center">
-<img src="./homePage.jpg" alt="demo"/>
+<div>
+<img src="./homePage.jpg" alt="home page desktop view"/>
+    <img src="./homeMobile.jpg" alt="home page mobile view"/>
 </div>
 
 <div align="center">
