@@ -12,8 +12,13 @@ Acknowledging Our Lands <br/>
 </div>
 
 <div align="center">
-    <img src="./land.jpg" alt="demo"/>
+    <img src="./learn.jpg" alt="learn more page"/>
 </div>
+
+<div align="left">
+<img src='./homeMobile.jpg' alt="home page mobile view" />
+</div>
+
 ## Built With
 
 Acknowledging Our Lands was built using these technologies:
