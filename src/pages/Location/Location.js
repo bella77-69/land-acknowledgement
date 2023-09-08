@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./Location.css";
 import LandAcknowledgement from "../LandAcknowledgement/LandAcknowledgement";
-import { apiKey } from "../../config.js";
+const apiKey = process.env.REACT_APP_API_KEY;
 
 const Location = () => {
   const [latitude, setLatitude] = useState(null);

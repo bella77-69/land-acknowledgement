@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Search.css";
-import { apiKey } from "../../config.js";
+const apiKey = process.env.REACT_APP_API_KEY;
 
 const Search = () => {
   const [inputCity, setInputCity] = useState("");
