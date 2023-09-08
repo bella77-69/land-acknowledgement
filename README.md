@@ -17,6 +17,8 @@ Acknowledging Our Lands <br/>
 
 <div align="left">
 <img src='./homeMobile.jpg' alt="home page mobile view" />
+<br />
+<img src='./landAcknowledgementMobile.jpg' alt='land acknowledgement mobile view' />
 </div>
 
 ## Built With
