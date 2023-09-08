@@ -40,9 +40,8 @@ To get started with Acknowledging Our Lands, follow these steps:
 ## Mobile Views
 
 <div align="center">
-  <img src='./homeMobile.jpg' alt="Home Page Mobile View" />
-</div>
-
-<div align="center">
-  <img src='./landAcknowledgementMobile.jpg' alt="Land Acknowledgment Mobile View" />
+  <div style="display: flex; justify-content: space-between;">
+    <img src='./homeMobile.jpg' alt="Home Page Mobile View" style="width: 48%;" />
+    <img src='./landAcknowledgementMobile.jpg' alt="Land Acknowledgment Mobile View" style="width: 48%;" />
+  </div>
 </div>
