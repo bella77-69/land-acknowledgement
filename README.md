@@ -4,7 +4,6 @@ Acknowledging Our Lands <br/>
 
 <div>
 <img src="./homePageDesktop.jpg" alt="home page desktop view"/>
-    <img src="./homeMobile.jpg" alt="home page mobile view"/>
 </div>
 
 <div align="center">
