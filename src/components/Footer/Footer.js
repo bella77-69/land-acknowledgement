@@ -11,6 +11,10 @@ function Footer() {
           reserved.
         </p>
         <p>Made with ❤️ by Chantelle</p>
+        <p>
+          If you have any questions or feedback, please email us at  {'  '}
+          <a className="email-link" href="mailto:acknowledgingourlands@gmail.com">acknowledgingourlands@gmail.com</a>
+        </p>
       </div>
     </footer>
   );

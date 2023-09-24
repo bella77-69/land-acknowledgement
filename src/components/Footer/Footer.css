@@ -32,3 +32,14 @@
     width: 100%;
     height: 15vh;
   }
+
+  .email-link {
+    color: var(--text-light-hover); /* Blue color for links, you can customize this */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .email-link:hover {
+    font-weight: 600;
+    color: var(--text-dark); /* Darken the color of links a little bit on hover */
+    text-decoration: none;
+  }
