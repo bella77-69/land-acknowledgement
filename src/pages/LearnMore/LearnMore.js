@@ -39,11 +39,10 @@ function LearnMore(props) {
     <div className="learn">
       <div className="learn-question">
         {" "}
-        <h1 className="page-title">FAQ</h1>
+        <h1 className="page-title">Frequently Asked Questions</h1>
         {questionElements}
-        <h2 className="page-title">More ways you can learn.</h2>
+        <h2 className="page-title">More ways you can learn</h2>
         <div className="learn-links">
-          
           <a
             href="https://ehprnh2mwo3.exactdn.com/wp-content/uploads/2021/01/Calls_to_Action_English2.pdf"
             target="_blank"
@@ -51,7 +50,8 @@ function LearnMore(props) {
           >
             Truth and Reconciliation Commission's Calls to Action
           </a>
-          <br />
+        </div>
+        <div className="learn-links">
           <a
             href="https://www.justice.gc.ca/eng/declaration/un_declaration_EN1.pdf"
             target="_blank"
