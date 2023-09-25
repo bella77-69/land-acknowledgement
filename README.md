@@ -5,15 +5,15 @@
 </p>
 
 <div align="center">
-  <img src="./homePageDesktop.jpg" alt="Home Page Desktop View" />
+  <img src="./home-page-desktop.png" alt="Home Page Desktop View" />
 </div>
 
 <div align="center">
-  <img src="./landAcknowledgement.jpg" alt="Land Acknowledgment Page" />
+  <img src="./land-acknowledgement-desktop.png" alt="Land Acknowledgment Page" />
 </div>
 
 <div align="center">
-  <img src="./learn.jpg" alt="Learn More Page" />
+  <img src="./learn-more-png" alt="Learn More Page" />
 </div>
 
 ## Built With
