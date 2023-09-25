@@ -1,6 +1,6 @@
 <h1 align="center">Acknowledging Our Lands</h1>
 
-<p align="center">
+<p align="left">
   <strong>Acknowledging Our Lands</strong> is a web application that helps users learn about and perform land acknowledgments. It provides a simple and educational platform for acknowledging the Indigenous territories and traditional lands on which we live and work.
 </p>
 
