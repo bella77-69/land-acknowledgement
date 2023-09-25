@@ -10,10 +10,15 @@ function Footer() {
           &copy; {new Date().getFullYear()} Acknowledging Our Lands. All rights
           reserved.
         </p>
-        <p>Made with ❤️ by Chantelle</p>
-        <p>
-          If you have any questions or feedback, please email us at  {'  '}
-          <a className="email-link" href="mailto:acknowledgingourlands@gmail.com">acknowledgingourlands@gmail.com</a>
+        <p className="email">
+          If you have any questions or feedback, please email us at:
+          <br />
+          <a
+            className="email-link"
+            href="mailto:acknowledgingourlands@gmail.com"
+          >
+            acknowledgingourlands@gmail.com
+          </a>
         </p>
       </div>
     </footer>
