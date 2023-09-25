@@ -13,7 +13,7 @@
 </div>
 
 <div align="center">
-  <img src="./learn-more-png" alt="Learn More Page" />
+  <img src="./learn-more-desktop.png" alt="Learn More Page" />
 </div>
 
 ## Built With
