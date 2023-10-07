@@ -17,11 +17,15 @@ function App() {
       <>
         <Navigation />
         <Switch>
-          <Route path='/' exact component={HomePage} />
-          <Route path='/location' exact component={Location} />
-          <Route path='/land-acknowledgement' exact component={LandAcknowledgement} />
-          <Route path='/search' exact component={Search} />
-          <Route path='/learn-more' exact component={LearnMore} />
+          <Route path="/" exact component={HomePage} />
+          <Route path="/location" exact component={Location} />
+          <Route
+            path="/land-acknowledgement"
+            exact
+            component={LandAcknowledgement}
+          />
+          <Route path="/search" exact component={Search} />
+          <Route path="/learn-more" exact component={LearnMore} />
         </Switch>
         <Footer />
       </>
