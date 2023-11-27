@@ -17,6 +17,7 @@ const Location = () => {
       const response = await axios.get(
         `https://native-land.ca/api/index.php?maps=territories&position=${latitude},${longitude}`
       );
+      console.log("Indigenous Land data:", response);
       // Handle the response and set the state with the Indigenous Land data.
       setIndigenousLands(response.data);
     } catch (error) {
@@ -30,6 +31,7 @@ const Location = () => {
       const response = await axios.get(
         `https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=${apiKey}`
       );
+      console.log("City data:", response);
       if (response.data.results.length > 0) {
         const city = response.data.results[0].components.city;
         setCity(city);

@@ -2,7 +2,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-} from "react-router-dom/cjs/react-router-dom.min";
+} from "react-router-dom";
 import Navigation from "./components/Navigation/Navigation";
 import Footer from "./components/Footer/Footer";
 import HomePage from "./pages/HomePage/HomePage";

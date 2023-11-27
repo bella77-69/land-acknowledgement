@@ -16,6 +16,7 @@ const LandAcknowledgment = ({ indigenousLands }) => {
     "We are grateful to gather on the traditional and unceded territories of the ",
     "We are gathered on the traditional and unceded territories of the ",
     "We are meeting on the traditional and unceded territories of the ",
+    "We respectfully acknowledge and extend out gratitude for their stewardship of this land since time immemorial."
     
   ];
 

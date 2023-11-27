@@ -24,8 +24,10 @@ const Search = () => {
         const indigenousLandResponse = await fetch(
           `https://native-land.ca/api/index.php?maps=territories&position=${lat},${lng}`
         );
+        console.log("City data:", cityData); 
+        console.log("Indigenous Land data:", indigenousLandResponse);
         const indigenousLandData = await indigenousLandResponse.json();
-
+          
         setError(null);
         setIndigenousLands(indigenousLandData);
       } else {
