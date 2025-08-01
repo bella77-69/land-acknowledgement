@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./LandAcknowledgement.css";
 
-const LandAcknowledgment = ({ indigenousLands }) => {
+const LandAcknowledgment = ({ indigenousLands = [] }) => {
   const [currentAcknowledgmentIndex, setCurrentAcknowledgmentIndex] = useState(0);
 
   const btnLearn = (e) => {
@@ -27,6 +27,17 @@ const LandAcknowledgment = ({ indigenousLands }) => {
     );
   };
 
+  // Safely extract land names
+  const getLandNames = () => {
+    if (!Array.isArray(indigenousLands)) return [];
+    
+    return indigenousLands
+      .filter(land => land?.properties?.Name) // Only include lands with valid names
+      .map(land => land.properties.Name);
+  };
+
+  const landNames = getLandNames();
+
   return (
     <div className="land-acknowledgment">
       <h2 className="location-title">Land Acknowledgment</h2>
@@ -35,17 +46,9 @@ const LandAcknowledgment = ({ indigenousLands }) => {
           <p className="land-paragraph">
              {indigenousLandVariations[currentAcknowledgmentIndex]}
             <span className="indigenous-names">
-              {indigenousLands.map((land, index) => (
-                <React.Fragment key={land.properties.Name}>
-                  {index > 0 && ", "}
-                  {land.properties.Name}
-                
-                </React.Fragment>
-                
-              ))}
+               {landNames.join(", ")}
             </span>
             {` First Nations.`}
-          
           </p>
           
         ) : (
